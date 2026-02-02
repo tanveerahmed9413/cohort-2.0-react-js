@@ -3,7 +3,7 @@ import Btn from './components/Btn'
 import Student from './components/Student'
 
 import Gender from './components/Gender'
-import Baathroom from './components/Baathroom'
+
 
 const App = () => {
   
@@ -12,7 +12,7 @@ const App = () => {
      <Btn />
      <Student />
      <Gender />
-     {/* <Baathroom user ='male'/> */}
+  
     </div>
   )
 }
