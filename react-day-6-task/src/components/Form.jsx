@@ -11,7 +11,7 @@ const Form = () => {
     allUser.push({fullName,phoneNumber})
     setAllData(allUser)
 
-    console.log('hello ji form loack ho gaya hai ');
+    console.log('hello ji form lock ho gaya hai ');
 
     setFullName('')
     setPhoneNumber('')

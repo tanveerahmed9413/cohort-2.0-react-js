@@ -11,7 +11,7 @@ const App = () => {
 
 
   let pokiData = async () => {
-    let res = await axios("https://pokeapi.co/api/v2/pokemon?limit=100");
+    let res = await axios.get("https://pokeapi.co/api/v2/pokemon?limit=100");
     setAllpokimone(res.data.results);
     console.log(res.data.results);
   };
@@ -22,7 +22,7 @@ const App = () => {
 
   return (
     <div>
-      <div className="justify-self-center ">
+      <div className="flex justify-center">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZVWqg-0SP8o52YfeyuMeiZPakL0k1TrRKFw&s" alt="" />
       </div>
 
