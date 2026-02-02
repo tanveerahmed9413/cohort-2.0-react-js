@@ -12,9 +12,9 @@ const App = () => {
       <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/product" element={<Product />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/Product" element={<Product />} />
+          <Route path="/Pontact" element={<Contact />} />
         </Routes>
       
     </div>
