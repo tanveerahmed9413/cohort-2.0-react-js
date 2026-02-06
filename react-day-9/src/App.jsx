@@ -28,7 +28,7 @@ const App = () => {
 
 
 
-        <div className="px-4 py-7 flex gap-2.5 flex-wrap items-center justify-center">
+        <div className="px-4 py-7 flex gap-3 flex-wrap items-center justify-center">
           {allpokimone.map((poki,idx)=>{
           return <div key={idx} className=" py-6">
             <UserCard key={idx } poki={poki} idx={idx + 1} />
